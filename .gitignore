@@ -1,0 +1,39 @@
+# MindReflect AI — .gitignore
+
+# Database files (contain user data)
+*.db
+*.sqlite
+*.sqlite3
+
+# Streamlit secrets (never commit API keys)
+.streamlit/secrets.toml
+
+# Local encryption key (if generated)
+mindreflect_local.key
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+env/
+venv/
+.env
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
